@@ -4,7 +4,8 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='mb-32'>  
+    <div></div>
+  /*   <div className='mb-32'>  
     <div className='flex flex-col items-center justify-center gap-6 about '>
     <div className='md:w-[80%] w-[95%] px-3 h-[400px] rounded-3xl md:rounded-[80px] flex justify-center items-center md:h-[500px] bg-[#0c1038]'>
         <Image src='/bt.png' alt='' width={500} height={900} className='flex items-center justify-center'/>
@@ -27,6 +28,6 @@ export default function About() {
 
       </div>
     </div>
-    </div>
+    </div> */
   )
 }
