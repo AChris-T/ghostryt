@@ -19,26 +19,37 @@ body {
   color: var(--foreground);
   background: var(--background);
 }
-.san{
-  font-family: "DM Sans", sans-serif;
+.san {
+  font-family: 'DM Sans', sans-serif;
 }
-.plus{
-  font-family: "Plus Jakarta Sans", sans-serif;
-
+.plus {
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
-.Hero{
+.Hero {
   padding-top: 100px;
   padding-bottom: 100px;
   background-image: url('/back.png');
-  background-position: 100% 0%, 0% 100%;
+  background-position:
+    100% 0%,
+    0% 100%;
   background-size: auto, auto;
-  background-repeat: no-repeat, no-repeat  
+  background-repeat: no-repeat, no-repeat;
 }
-.about{
-    margin-bottom: 20px;
-    padding-top: 10px;
-    background-image: url('/back.png');
-    background-position: 5% 200%, 100% 0%;
-    background-size: auto, auto;
-    background-repeat: no-repeat, no-repeat  
+.about {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  background-image: url('/back.png');
+  background-position:
+    5% 200%,
+    100% 0%;
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+}
+.demo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url('/bgn.png');
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
