@@ -6,7 +6,7 @@ export default function SampleArticle() {
       <h3 className="font-bold plus text-center text-[2.3rem] md:text-[2.7rem]">
         Samples of GhostRYT Articles
       </h3>
-      <p className=" md:w-[900px] san font-normal text-[#a6a6a6] text-[1.1rem] text-center">
+      <p className=" lg:w-[900px] san font-normal text-[#a6a6a6] text-[1.1rem] text-center">
         See for yourself the quality that our automated AI agents will produce
         for your blog. Our AI agents did everything from brainstorming the
         article ideas, headlines, the article, even picking out the images, and
