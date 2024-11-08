@@ -68,7 +68,7 @@ export default function Footer() {
         </div>{' '}
         <div className="flex flex-col w-full gap-4">
           <h3 className="plus font-semibold text-[1.4rem]">Subscribe Now!</h3>
-          <div className="flex flex-col gap-3 mt-4">
+          <div className="flex flex-col gap-3 mt-4 text-white">
             <p className="san text-[1rem] font-light">
               Get a free 7 day e-course on making money with blogging when you
               enter your email below..
@@ -92,7 +92,7 @@ export default function Footer() {
       <div className="w-full px-6 mt-10">
         <hr className="w-full text-white" />
         <div className="flex flex-col-reverse items-center justify-between w-full mt-4 mb-4 lg:flex-row">
-          <h3 className="text-[1rem] font-light san">
+          <h3 className="text-[1rem] font-light san text-white">
             © 2024 by YourPublishing LLC. All rights reserved.
           </h3>
           <div className="flex flex-col gap-3 mb-2 lg:flex-row">
