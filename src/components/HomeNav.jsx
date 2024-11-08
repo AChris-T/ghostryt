@@ -30,7 +30,7 @@ export default function HomeNav() {
       <button className="border-[0.5px] hidden md:flex   rounded-[5px]  px-10 py-4 text-lg font-medium ">
         Login
       </button>
-      <IoMenu className="text-[#e7492b] bg-white flex md:hidden border-[0.5px] rounded-[7px] py-2 w-[60px] h-[60px]  font-medium" />
+      <IoMenu className="text-[#e7492b] bg-white flex md:hidden border-[0.5px] rounded-[7px] py-2 w-[80px] h-[60px]  font-medium" />
     </div>
   );
 }
