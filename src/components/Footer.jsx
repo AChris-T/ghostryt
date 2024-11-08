@@ -95,7 +95,7 @@ export default function Footer() {
           <h3 className="text-[1rem] font-light san text-white">
             © 2024 by YourPublishing LLC. All rights reserved.
           </h3>
-          <div className="flex flex-col gap-3 mb-2 lg:flex-row">
+          <div className="flex flex-col gap-3 mb-2 text-white lg:flex-row">
             <a href=" " className="text-[1rem] font-light san">
               Privacy Policy
             </a>
