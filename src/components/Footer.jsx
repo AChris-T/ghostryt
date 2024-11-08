@@ -29,7 +29,7 @@ export default function Footer() {
             <p className="text-white">Coming Soon</p>
           </div>
         </div>
-        <div className="flex flex-col w-full gap-4">
+        <div className="flex flex-col w-full gap-4 text-white">
           <h3 className="plus font-semibold text-[1.4rem]">Navigation</h3>
           <div className="flex flex-col gap-3 mt-4">
             <a href="" className="san text-[1.1rem] font-normal">
