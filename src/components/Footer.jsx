@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 export default function Footer() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-black md:px-22">
       <div className="flex flex-col justify-between gap-8 px-4 pt-24 lg:flex-row items center">
         <div className="flex flex-col w-full gap-4">
           <Image
@@ -78,7 +78,7 @@ export default function Footer() {
                 placeholder="Email Address"
                 className="border-[1px] w-[200px] rounded-[5px]  px-4 py-3 bg-transparent focus:outline-none border-[#7a7a7a]"
               />
-              <button className="bg-[#e7492b] w-[130px] rounded-[5px] san text-[1.1rem] font-medium  py-3  hover:bg-[#151313]">
+              <button className="bg-[#e7492b] w-[100px] rounded-[5px] san text-[1.1rem] font-medium  py-3  hover:bg-[#151313]">
                 Submit
               </button>
             </div>

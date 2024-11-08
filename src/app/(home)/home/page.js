@@ -9,7 +9,7 @@ import SampleArticle from '@/components/SampleArticle';
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#0a0a0a]">
       <HeroSection />
       <About />
       <AboutCard />
@@ -17,7 +17,6 @@ export default function Home() {
       <Demo />
       <FeedBack />
       <SampleArticle />
-      <Footer />
     </div>
   );
 }
