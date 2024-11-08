@@ -92,7 +92,7 @@ export default function Footer() {
       <div className="w-full px-6 mt-10">
         <hr className="w-full text-white" />
         <div className="flex flex-col-reverse items-center justify-between w-full mt-4 mb-4 lg:flex-row">
-          <h3 className="text-[1rem] font-light san text-white">
+          <h3 className="text-[1rem] font-light san text-center text-white">
             © 2024 by YourPublishing LLC. All rights reserved.
           </h3>
           <div className="flex flex-col gap-3 mb-2 text-white lg:flex-row">
