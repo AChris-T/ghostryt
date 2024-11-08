@@ -3,7 +3,7 @@ import React from 'react';
 export default function HeroSection() {
   return (
     <div className="h-full ">
-      <div className="flex flex-col items-center justify-center gap-3 Hero">
+      <div className="flex flex-col items-center justify-center gap-3 text-white Hero">
         <h3 className="text-[3rem] font-bold md:w-[600px] w-[95%] text-center plus leading-tight">
           {' '}
           Automate Your BLOG in 10 Minutes Or Less
