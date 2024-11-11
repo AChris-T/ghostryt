@@ -1,9 +1,12 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import React from 'react';
 import { IoMenu } from 'react-icons/io5';
 
 export default function HomeNav() {
+  const pathname = usePathname();
   return (
     <div className="bg-[#070707] md:px-2 lg:px-10 px-4    py-3 flex items-center justify-between">
       <Image
@@ -14,16 +17,36 @@ export default function HomeNav() {
         height={20}
       />
       <div className="hidden gap-9 md:flex lg:pr-28">
-        <Link href="/home" className="text-lg font-medium text-white san">
+        <Link
+          href="/home"
+          className={`text-lg font-medium  san ${
+            pathname === '/home' ? 'text-blue-500' : 'text-white'
+          }`}
+        >
           Home
         </Link>
-        <Link href="/pricing" className="text-lg font-medium text-white san">
+        <Link
+          href="/pricing"
+          className={`text-lg font-medium  san ${
+            pathname === '/pricing' ? 'text-blue-500' : 'text-white'
+          }`}
+        >
           Pricing
         </Link>
-        <Link href="/blog" className="text-lg font-medium text-white san">
+        <Link
+          href="/blog"
+          className={`text-lg font-medium  san ${
+            pathname === '/blog' ? 'text-blue-500' : 'text-white'
+          }`}
+        >
           Blog
         </Link>
-        <Link href="/contact" className="text-lg font-medium text-white san ">
+        <Link
+          href="/contact"
+          className={`text-lg font-medium  san ${
+            pathname === '/contact' ? 'text-blue-500' : 'text-white'
+          }`}
+        >
           Contact
         </Link>
       </div>

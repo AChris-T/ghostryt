@@ -3,8 +3,6 @@ import AboutPrice from '@/components/AboutPrice';
 import FAQ from '@/components/FAQ';
 import Featueres from '@/components/Featueres';
 import PricingList from '@/components/PricingList';
-import Process from '@/components/Process';
-import TimeLine from '@/components/TimeLine';
 import React from 'react';
 
 export default function page() {
@@ -22,7 +20,6 @@ export default function page() {
         </div>
       </div>
       <div className="flex flex-col gap-24 px-3 lg:px-24">
-        <Process />
         <PricingList />
         <AboutPrice />
         <FAQ />
