@@ -4,15 +4,15 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className="mb-32">
+    <div className="mb-32 lg:mt-[150px]">
       <div className="flex flex-col items-center justify-center gap-6 about ">
-        <div className="md:w-[80%] w-[95%] px-3 h-[400px] rounded-3xl md:rounded-[80px] flex justify-center items-center md:h-[500px] bg-[#0c1038]">
+        <div className="md:w-[80%] w-[95%]  flex justify-center items-center ">
           <Image
-            src="/bt.png"
+            src="/banner.png"
             alt=""
-            width={500}
-            height={900}
-            className="flex items-center justify-center"
+            width={1000}
+            height={1000}
+            className="flex items-center justify-center "
           />
         </div>
         <div></div>
