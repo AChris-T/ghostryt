@@ -35,20 +35,20 @@ export default function Sidebar() {
         </div>
         <div className="mt-[64px] px-5 flex flex-col gap-3">
           <Link
-            href="/home"
-            className={`text-lg px-4 flex rounded-lg  py-4 gap-3  text-gray-100 hover:text-white hover:bg-red-100 items-center font-medium  san ${
-              pathname === '/dashboard'
-                ? 'text-white bg-red-100'
-                : 'text-gray-100'
+            href="/dashboard"
+            className={`text-base px-4 flex rounded-lg  py-4 gap-3  text-gray-100  hover:text-red-100 items-center font-medium   ${
+              pathname === '/dashboard' ? 'text-red-100' : 'text-gray-100'
             }`}
           >
             <TbLayoutDashboard className="text-[24px]" />
             Dashboard
           </Link>
           <Link
-            href="/home"
-            className={`text-lg px-4 flex rounded-lg  py-4 gap-3  text-gray-100 hover:text-white hover:bg-red-100 items-center font-medium  san ${
-              pathname === '/dashboard' ? 'text-gray-100' : 'text-gray-100'
+            href="/Generate_Keyword"
+            className={`text-base px-4 flex rounded-lg  py-4 gap-3  text-gray-100 hover:text-red-100 items-center font-medium   ${
+              pathname === '/Generate_Keyword'
+                ? 'text-red-100'
+                : 'text-gray-100'
             }`}
           >
             <FaKeyboard className="text-[24px]" />
@@ -56,7 +56,7 @@ export default function Sidebar() {
           </Link>
           <Link
             href="/home"
-            className={`text-lg px-4 flex rounded-lg  py-4 gap-3  text-gray-100 hover:text-white hover:bg-red-100 items-center font-medium  san ${
+            className={`text-base px-4 flex rounded-lg  py-4 gap-3  text-gray-100 hover:text-white hover:bg-red-100 items-center font-medium  ${
               pathname === '/dashboard' ? 'text-gray-100' : 'text-gray-100'
             }`}
           >
@@ -68,7 +68,7 @@ export default function Sidebar() {
               onClick={toggleExpand}
               className="flex items-center justify-between w-full px-4 py-3 text-gray-100"
             >
-              <div className="flex items-center gap-3 text-lg font-medium text-gray-100">
+              <div className="flex items-center gap-3 text-base font-medium text-gray-100">
                 {' '}
                 <IoSettings />
                 Settings
