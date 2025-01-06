@@ -24,7 +24,7 @@ export default function page() {
         <label>Topic or Primary Idea</label>
         <input
           className="border-[1px] h-[60px] px-4 rounded-md focus:outline-none "
-          placeholder="Enter"
+          placeholder="Enter your topic"
           value={inputValue}
           onChange={handleInputChange}
         />
