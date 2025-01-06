@@ -44,9 +44,9 @@ export default function Sidebar() {
             Dashboard
           </Link>
           <Link
-            href="/Generate_Keyword"
+            href="/generate_keyword"
             className={`text-base px-4 flex rounded-lg  py-4 gap-3  text-gray-100 hover:text-red-100 items-center font-medium   ${
-              pathname === '/Generate_Keyword'
+              pathname === '/generate_keyword'
                 ? 'text-red-100'
                 : 'text-gray-100'
             }`}
