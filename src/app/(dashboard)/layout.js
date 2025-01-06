@@ -11,7 +11,7 @@ export default function DashboardLayout({ children }) {
             <Sidebar />
           </div>
           <div className="bg-white lg:ml-[280px] ml-[0px] w-full ">
-            <div className=" h-[90px] mb-[22px] border-b-[1px]  shadow-lg border-[#F1F1F1] flex w-full px-5 items-center">
+            <div className=" h-[90px] mb-[22px] border-b-[1px]  shadow-lg border-[#F1F1F1] flex px-2 w-full md:px-5 items-center">
               <PageHeader />
             </div>
             {children}

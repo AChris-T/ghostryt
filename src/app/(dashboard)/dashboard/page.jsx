@@ -8,7 +8,7 @@ import { AiTwotoneSchedule } from 'react-icons/ai';
 
 export default function page() {
   return (
-    <div className="flex flex-col justify-between gap-8 px-4 py-8 text-black bg-white shadow-lg rounde-lg poppins lg:px-6">
+    <div className="flex flex-col justify-between gap-8 px-2 py-8 text-black bg-white shadow-lg md:px-4 rounde-lg poppins lg:px-6">
       <h3 className="text-[#161E54] text-2xl font-medium">Dashboard</h3>
       <div className="flex flex-col justify-between md:flex-row gap-7">
         <div className="basis-2/3">
